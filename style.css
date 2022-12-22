@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,200;1,200&family=Martel:wght@200&family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -43,7 +44,38 @@ nav ul li a{
   text-decoration: none;
   font-weight: bold;
 }
-button{
-  border: none;
-  background: #FFFFFF;
+.content{
+  width: 999px;
+  height: auto;
+  margin: auto;
+  color: #FFFFFF;
+}
+.content .par{
+  font-family: 'Montserrat';
+  line-height: 30px;
+  font-size: 20px; 
+  width: 930px;
+}
+.content h2{
+  padding-top: 150px;
+  font-size: 58px;
+}
+.bth{
+  padding: 10px 36px;
+  color: white;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  border-radius: 30px;
+  border: 2px solid white;
+  text-align: center;
+  margin-right: 20px;
+
+
+  background: rgba(0, 0, 0, 0.1);
+}
+.bth.cn{
+  background: #D0A144;
+border-radius: 37px;
 }
