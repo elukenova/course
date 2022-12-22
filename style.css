@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
 }
-body {
+body{
+  max-width: 1288px;
   margin: 0;
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 18px;
+  padding: 0;
+  color:#FFFFFF;
   background-color: #252B42;
-  color: #fff;
+
 }
 
 h1, h2, h3, h4, h5, h6 {
