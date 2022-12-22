@@ -45,10 +45,12 @@ nav ul li a{
   font-weight: bold;
 }
 .content{
-  width: 999px;
+  max-width: 500px;
   height: auto;
-  margin: auto;
   color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  margin-left: 300px;
 }
 .content .par{
   font-family: 'Montserrat';
@@ -78,4 +80,48 @@ nav ul li a{
 .bth.cn{
   background: #D0A144;
 border-radius: 37px;
+}
+.email{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  color: #252B42;
+  max-width: 330px;
+  height: 630px;
+  margin-left: auto;
+  margin-top: -450px;
+  margin-right: 300px;
+
+  border-radius: 10px;
+  text-align: center;
+
+}
+.button-adress.blue{
+  background-color: #295C7A;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.header{
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 40px;
+}
+.par{
+  font-size: 18px;
+  font-family: 'Open Sans';
+  letter-spacing: 0.2px;
+}
+.col-4{
+  background-color: #F6E4D7;
+  color: #252B42;
+  border-radius: 10px;
+}
+.card-imag{
+  border-radius: 50px;
+}
+.col-4 {
+  flex: 33.3% 0 0;
 }
