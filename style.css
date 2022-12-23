@@ -115,13 +115,25 @@ border-radius: 37px;
   letter-spacing: 0.2px;
 }
 .col-4{
+
+  margin-left: 200px;
+  width: 70px;
+  height: 300px;
   background-color: #F6E4D7;
   color: #252B42;
+  font-size: 16px;
   border-radius: 10px;
 }
-.card-imag{
+.card-image{
   border-radius: 50px;
 }
 .col-4 {
   flex: 33.3% 0 0;
 }
+.row{ /* Строка */
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
