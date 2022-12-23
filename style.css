@@ -1,17 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,200;1,200&family=Martel:wght@200&family=Montserrat:wght@200&family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+
 * {
   box-sizing: border-box;
 }
-body{
+
+body {
   max-width: 1288px;
   margin: 0;
   padding: 0;
-  color:#FFFFFF;
+  color: #FFFFFF;
   background-color: #252B42;
 
 }
 
-header{
+header {
   background-image: url(./background.jpg);
   background-repeat: no-repeat;
   height: 110vh;
@@ -19,32 +21,37 @@ header{
   /* margin: 0;
   padding: 0;  */
 }
-nav{
+
+nav {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding-top: 15px;
-  font-family: 'Open Sans';  
+  font-family: 'Open Sans';
   font-size: 14px;
 }
-.logo{
+
+.logo {
   color: white;
   font-size: 24px;
   margin-right: 20%;
   margin-left: 5%;
   font-family: 'Martel';
 }
-nav ul li{
+
+nav ul li {
   list-style-type: none;
   display: inline-block;
-  padding: 10px 20px; 
+  padding: 10px 20px;
 }
-nav ul li a{
+
+nav ul li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
-.content{
+
+.content {
   max-width: 500px;
   height: auto;
   color: #FFFFFF;
@@ -52,17 +59,20 @@ nav ul li a{
   margin: 0;
   margin-left: 300px;
 }
-.content .par{
+
+.content .par {
   font-family: 'Montserrat';
   line-height: 30px;
-  font-size: 20px; 
+  font-size: 20px;
   width: 930px;
 }
-.content h2{
+
+.content h2 {
   padding-top: 150px;
   font-size: 58px;
 }
-.bth{
+
+.bth {
   padding: 10px 36px;
   color: white;
   font-family: 'Open Sans';
@@ -77,11 +87,13 @@ nav ul li a{
 
   background: rgba(0, 0, 0, 0.1);
 }
-.bth.cn{
+
+.bth.cn {
   background: #D0A144;
-border-radius: 37px;
+  border-radius: 37px;
 }
-.email{
+
+/* .email {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -97,34 +109,61 @@ border-radius: 37px;
   border-radius: 10px;
   text-align: center;
 
+} */
+.card-item {
+display: flex;
+flex-direction: column;
+background-color: #FFFFFF;
+color: #252B42;
+margin-left: 720px;
+width: 20vw;
+padding: 15px 15px;
+margin-top: -450px;
+height: 560px;
+border-radius: 10px;
 }
-.button-adress.blue{
+.button-adress {
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:  #737373;
+}
+
+.button-adress.blue {
   background-color: #295C7A;
   color: #FFFFFF;
   text-align: center;
+  margin-top: 25px;
+  border: none;
+  border-radius: 5px;
 }
 
-.header{
+.header {
   text-align: center;
   color: #FFFFFF;
   font-size: 40px;
 }
-.par{
+
+.par {
   font-size: 18px;
   font-family: 'Open Sans';
   letter-spacing: 0.2px;
 }
-.header{
+
+.header {
   display: block;
 }
-.row{ /* Строка */
+
+.row {
+  /* Строка */
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   margin-left: 200px;
   margin-bottom: 750px;
 }
-.col-4{
+
+.col-4 {
   width: 70px;
   height: 300px;
   background-color: #F6E4D7;
@@ -132,32 +171,49 @@ border-radius: 37px;
   font-size: 16px;
   border-radius: 10px;
 }
-.card-image{
+
+.card-image {
   border-radius: 50px;
 }
+
 .col-4 {
   flex: 33.3% 0 0;
 }
-.men{
+
+.men {
   width: 870px;
   height: 430px;
   margin: 0 auto;
   margin-left: 250px;
 }
-h3{
+
+h3 {
   font-size: 45px;
   color: #FFFFFF;
   text-align: center;
 }
-p{
+
+p {
   text-align: center;
   font-size: 16px;
   font-family: 'Open Sans';
 }
-.fon{
+
+.fon {
   width: 113%;
   height: 40%;
   background: rgba(0, 0, 0, 0.5);
   margin-bottom: -650px;
 }
 
+h4 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.reviews {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  width: 100px;
+  height: 90px;
+}
