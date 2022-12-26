@@ -162,7 +162,8 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  
+  flex-direction: row;
+
 }
 .col-2 {
   flex-basis: 16.6%;
@@ -272,8 +273,37 @@ h4 {
 
 .row.new {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1500px;
+  height: 200px;
+  font-size: 20px;
+
+}
+.row.new img{
+  width: 20px;
+  margin-top: 15px;
+  
+}
+.row.new .card-content{
+  font-size: 14px;
+  font-family: 'Open Sans';
+  margin-left: 10px ;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+.row.new .card-image2{
+  width: 50px;
+  margin-left: 25px;
+}
+.row.new .card-image3{
+  margin-left: 20px;
+}
+.row.new p{
+  color:#252B42;
 }
 .row-1 {
   display: flex;
