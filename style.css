@@ -16,7 +16,7 @@ header {
   background-image: url(./background.jpg);
   background-repeat: no-repeat;
   height: 110vh;
-  width: 1500px;
+  width: 1440px;
   /* margin: 0;
   padding: 0;  */
 }
@@ -96,7 +96,7 @@ nav ul li a {
   flex-direction: column;
   background-color: #ffffff;
   color: #252b42;
-  margin-left: 720px;
+  margin-left: 820px;
   width: 20vw;
   padding: 15px 15px;
   margin-top: -450px;
@@ -140,6 +140,10 @@ nav ul li a {
   /*строка*/
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
+  /* width: 1300px; */
+  height: 1060px;
+  border-radius: 20px;
 }
 [class^="col"] {
   padding: 0 10px;
@@ -197,6 +201,7 @@ nav ul li a {
   border: 2px solid rgb(240, 240, 240);
   box-shadow: 0 0 10px 5px rgba(16, 15, 15, 0.47);
   margin-bottom: 20px;
+  padding-right: -70px;
 }
 .card .card-image {
   width: 100%;
@@ -213,7 +218,19 @@ nav ul li a {
 .card-header {
   background-color: rgba(246, 228, 215, 1);
   display: flex;
-  color: ;
+  justify-content: flex-start;
+  color: #252B42;
+  text-align: start;
+}
+.card-content{
+  color: #737373;
+  font-size: 14px;
+}
+span{
+  color: #D0A144;
+}
+.card-header img{
+  border-radius: 50%;
 }
 
 .men {
