@@ -156,9 +156,13 @@ nav ul li a {
   flex-shrink: 1;
 }
 .col-3 {
-  flex-basis: 25%;
+  flex-basis: 33.3%;
   flex-grow: 0;
   flex-shrink: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
 }
 .col-2 {
   flex-basis: 16.6%;
@@ -232,7 +236,9 @@ span{
 .card-header img{
   border-radius: 50%;
 }
-
+.section2{
+  margin-top: -350px;
+}
 .men {
   width: 870px;
   height: 430px;
@@ -264,11 +270,10 @@ h4 {
   text-align: center;
 }
 
-.reviews {
-  background-color: #ffffff;
-  border-radius: 10px;
-  width: 100px;
-  height: 90px;
+.row.new {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .row-1 {
   display: flex;
