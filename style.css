@@ -310,3 +310,9 @@ h4 {
   flex-direction: row;
   justify-content: space-between;
 }
+.section{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 200px;
+}
