@@ -97,16 +97,22 @@ nav ul li a {
   color: #252b42;
   margin-left: 820px;
   width: 20vw;
-  padding: 15px 15px;
+  padding: 15px 20px;
   margin-top: -450px;
   height: 560px;
   border-radius: 10px;
+  justify-content: ;
 }
 .button-adress {
   padding: 10px 15px;
   margin-top: 10px;
   margin-bottom: 10px;
   color: #737373;
+  text-align: start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 14px;
 }
 
 .button-adress.blue {
