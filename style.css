@@ -147,7 +147,8 @@ nav ul li a {
   flex-wrap: wrap;
   flex-direction: row;
   /* width: 1300px; */
-  height: 1060px;
+  /* height: 1060px; */
+  margin-bottom: 480px;
   border-radius: 20px;
 }
 [class^="col"] {
@@ -242,8 +243,8 @@ span{
 .card-header img{
   border-radius: 50%;
 }
-.section2{
-  margin-top: -350px;
+.who{
+mar
 }
 .men {
   width: 870px;
