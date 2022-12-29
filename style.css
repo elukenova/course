@@ -310,7 +310,7 @@ h4 {
   flex-direction: row;
   justify-content: space-between;
 }
-.row-1 .meet{
+.meet{
   display: flex;
   flex-wrap: wrap;
   width: 328px;
