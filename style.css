@@ -365,6 +365,7 @@ font-size: 25px;
   color:#252B42;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 
 }
 .over{
