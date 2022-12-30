@@ -363,4 +363,5 @@ font-size: 40px;
 .free{
   background: white;
   color:#252B42;
+  display: flex;
 }
