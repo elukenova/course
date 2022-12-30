@@ -243,6 +243,9 @@ span{
 .card-header img{
   border-radius: 50%;
 }
+.practice{
+  margin-bottom: 250px;
+}
 .who{
 margin-bottom: 170px;
 }
@@ -250,8 +253,7 @@ margin-bottom: 170px;
   width: 870px;
   height: 430px;
   margin: 0 auto;
-  margin-left: 250px;
-  margin-top: 50px;
+  margin-left: 350px;
 }
 
 h3 {
@@ -266,12 +268,14 @@ p {
   font-family: "Open Sans";
 }
 
-.fon {
+
+.fon{
+  background: rgba(0, 0, 0, 0.5);
   width: 113%;
   height: 40%;
-  background: rgba(0, 0, 0, 0.5);
-  margin-bottom: -650px;
+
 }
+
 
 h4 {
   font-size: 30px;
