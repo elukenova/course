@@ -135,6 +135,7 @@ nav ul li a {
   font-family: "Open Sans";
   letter-spacing: 0.2px;
   color: #ffffff;
+  margin-bottom: 40px;
 }
 .container {
   /*задать ширину и выровнять по середине*/
@@ -244,7 +245,7 @@ span{
   border-radius: 50%;
 }
 .practice{
-  margin-bottom: 450px;
+  margin-bottom: 550px;
 }
 .who{
 margin-bottom: 170px;
@@ -273,7 +274,7 @@ p {
   background: rgba(0, 0, 0, 0.5);
   width: 113%;
   height: 45%;
-  margin-bottom: -680px;
+  margin-bottom: -780px;
 }
 
 
