@@ -339,5 +339,14 @@ h4 {
   height: 100%;
 }
 .card-us{
-
+  display: flex;
+  flex-direction: column;
+  color: #252b42;
+  margin-left: 820px;
+  width: 20vw;
+  padding: 15px 20px;
+  margin-top: -450px;
+  height: 560px;
+  border-radius: 10px;
+}
 }
