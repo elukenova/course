@@ -326,9 +326,8 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  width: 328px;
   height: 50px;
 }
 .reviews{
-  margin-bottom: 250px;
+  margin-bottom: 150px;
 }
