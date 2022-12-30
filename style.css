@@ -349,4 +349,8 @@ h4 {
   height: 560px;
   border-radius: 10px;
 }
+.contact{
+  text-align: start;
+  font-size: 16px;
+  font-family: 'Martel';
 }
