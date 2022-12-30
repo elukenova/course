@@ -364,4 +364,5 @@ font-size: 40px;
   background: white;
   color:#252B42;
   display: flex;
+  flex-wrap: wrap;
 }
