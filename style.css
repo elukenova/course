@@ -332,3 +332,7 @@ h4 {
 .reviews{
   margin-bottom: 150px;
 }
+.registration{
+  background: url(./cover4.jpg);
+  background-size: cover;
+}
