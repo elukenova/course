@@ -378,4 +378,5 @@ font-size: 25px;
 }
 .Litigade{
   display: flex;
+  flex-wrap: wrap;
 }
