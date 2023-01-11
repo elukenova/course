@@ -298,6 +298,9 @@ h4 {
   margin-top: 15px;
   
 }
+.card-image3{
+  width: px;
+}
 .row.new .card-content{
   font-size: 14px;
   font-family: 'Open Sans';
@@ -386,3 +389,8 @@ font-size: 25px;
 .imge{
   margin-left: 850px;
 }
+/* footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} */
