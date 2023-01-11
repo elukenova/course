@@ -294,12 +294,9 @@ h4 {
 
 }
 .row.new img{
-  width: 20px;
+  width: 70px;
   margin-top: 15px;
   
-}
-.card-image3{
-  width: px;
 }
 .row.new .card-content{
   font-size: 14px;
@@ -385,12 +382,35 @@ font-size: 25px;
   margin-top: 150px;
   justify-content: space-between;
   flex-direction: row;
+
+}
+.Litigade{
+  border-bottom: 1px solid #364067;
 }
 .imge{
   margin-left: 850px;
+  display: inline-block;
 }
-/* footer{
+.facebook{
+  display: inline;
+  font-size: 28px;
+}
+footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-} */
+
+}
+h6{
+  font-size: 16px;
+}
+footer ul {
+  list-style-type: none;
+  color: #ffffff;
+}
+a{
+  text-decoration: none;
+}
+ul li a{
+  color: #ffffff;
+}
