@@ -81,7 +81,6 @@ nav ul li a {
   border: 2px solid white;
   text-align: center;
   margin-right: 20px;
-
   background: rgba(0, 0, 0, 0.1);
 }
 
@@ -103,6 +102,7 @@ nav ul li a {
   border-radius: 10px;
 }
 .button-adress {
+  background-color: #f9f6f6cb;
   padding: 10px 15px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -112,6 +112,9 @@ nav ul li a {
   flex-wrap: wrap;
   justify-content: space-between;
   font-size: 14px;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  font-family: 'Open Sans';
 }
 
 .button-adress.blue {
@@ -146,9 +149,6 @@ nav ul li a {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  /* width: 1300px; */
-  /* height: 1060px; */
-  /* margin-bottom: 480px; */
   border-radius: 20px;
 }
 [class^="col"] {
