@@ -168,11 +168,6 @@ nav ul li a {
   flex-basis: 33.3%;
   flex-grow: 0;
   flex-shrink: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: row;
-
 }
 .col-2 {
   flex-basis: 16.6%;
@@ -314,23 +309,31 @@ h4 {
   text-align: center;
 }
 
-.row.new {
+.reviews .card{
+  color: #737373;
+  border-radius: 5px;
+}
+.reviews .row {
+  display: flex;
+  justify-content: space-around;
+}
+/* .reviews .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   flex-direction: row;
-  width: 900px;
-  height: 200px;
+  width: 65%;
+  height: 50vh;
   font-size: 20px;
   margin: 0 auto;
 
-}
-.row.new img{
+} */
+.riviews.row img{
   width: 70px;
   margin-top: 15px;
   
 }
-.row.new .card-content{
+.reviews .card-content{
   font-size: 14px;
   font-family: 'Open Sans';
   margin-left: 10px ;
@@ -339,14 +342,15 @@ h4 {
   flex-direction: row;
   margin-bottom: 5px;
 }
-.row.new .card-image2{
+.row .card-image2{
   width: 50px;
   margin-left: 25px;
 }
-.row.new .card-image3{
+.stars{
   margin-left: 20px;
+  margin-top: 20px;
 }
-.row.new p{
+.row p{
   color:#252B42;
 }
 .row-1 {
