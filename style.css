@@ -166,8 +166,8 @@ nav ul li a {
 }
 .col-3 {
   flex-basis: 33.3%;
-  flex-grow: 0;
-  flex-shrink: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 .col-2 {
   flex-basis: 16.6%;
@@ -236,28 +236,17 @@ nav ul li a {
   color: #737373;
   font-size: 14px;
 }
-.ellipse{
-  display: flex;
-}
-.card-image2{
-  width: 50%;
-}
-.ellipse h1{
-  color: #D0A144;
-  font-size: 18px;
-}
 .card-header img{
   width: 100%;
   border-radius: 50%;
 }
 .card-header-img {
   padding: 3vh 1vw;
-}
-span{
-  color: #D0A144;
+  margin: 0;
 }
 .practice{
   margin-bottom: 550px;
+  padding: 0;
 }
 .practice-content {
   max-width: 80%;
@@ -295,7 +284,6 @@ p {
   font-family: "Open Sans";
 }
 
-
 .fon{
   background: rgba(0, 0, 0, 0.5);
   width: 100%;
@@ -303,31 +291,36 @@ p {
   margin-bottom: -780px;
 }
 
-
 h4 {
   font-size: 30px;
   text-align: center;
 }
 
+.ellipse{
+  max-width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+  width: 70vw;  
+  margin-top: 7%;
+}
+.slate{
+  padding-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .reviews .card{
   color: #737373;
   border-radius: 5px;
+  
 }
 .reviews .row {
   display: flex;
   justify-content: space-around;
+  align-items: flex-start
+  
 }
-/* .reviews .row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  flex-direction: row;
-  width: 65%;
-  height: 50vh;
-  font-size: 20px;
-  margin: 0 auto;
-
-} */
 .riviews.row img{
   width: 70px;
   margin-top: 15px;
@@ -338,31 +331,21 @@ h4 {
   font-family: 'Open Sans';
   margin-left: 10px ;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   margin-bottom: 5px;
-}
-.row .card-image2{
-  width: 50px;
-  margin-left: 25px;
 }
 .stars{
   margin-left: 20px;
   margin-top: 20px;
+  width: 7vw;
+  margin-left: 25px;
 }
-.row p{
-  color:#252B42;
-}
-.row-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
+
 .meet{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   margin-bottom: 50px;
+  margin-top: -30%;
 }
 .meet .card-content{
   display: flex;
@@ -406,7 +389,7 @@ h4 {
   border-radius: 5px;
   font-family: 'Open Sans';
 }
-.
+
 .card-us{
   display: flex;
   flex-direction: column;
@@ -442,8 +425,6 @@ padding: 0;
 .free{
   background: white;
   color:#252B42;
-
-
 }
 .free-content {
   display: flex;
