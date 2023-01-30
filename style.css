@@ -51,7 +51,7 @@ nav ul li a {
 }
 
 .content {
-  max-width: 500px;
+  max-width: 800%;
   height: auto;
   color: #ffffff;
   padding: 0;
@@ -418,20 +418,25 @@ h4 {
   border: 1px solid #BDBDBD;
   border-radius: 5px;
   font-family: 'Open Sans';
+  height: 5vh;
 }
-
 .full-name-adress.right{
-  margin-right: 53%;
-  padding: 12px 5px;
+  font-size: 14px;
+  width: 250px;
+}
+.full-name-adress.left{
+  font-size: 14px;
+  width: 280px;
 }
 .card-us{
   display: flex;
   flex-direction: column;
-  padding: 15px 20px;
+  padding: 20px 20px;
   border-radius: 10px;
 }
 .card-us .full-name {
   display: flex;
+
 }
 .card-us .select {
   display: flex;
@@ -538,8 +543,6 @@ padding: 0;
   font-family: 'Open Sans';
   font-weight: 500;
   font-size: 14px;
-
-
 }
 h6{
   font-size: 16px;
@@ -585,14 +588,4 @@ ul li a{
   font-size: 18px;
   font-weight: 600;
   top: 452px;
-}
-
-
-@media screen and{max-width: 840px} {;
-  .men {
-    width: 870px;
-    height: 430px;
-    margin: 0 auto;
-    margin-left: 350px;
-  }
 }
