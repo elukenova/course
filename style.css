@@ -266,7 +266,7 @@ padding-left: 0;
 margin-bottom: 170px;
 }
 .men {
-  width: 870px;
+  width: 55%;
   height: 430px;
   margin: 0 auto;
   margin-left: 350px;
@@ -375,13 +375,23 @@ h4 {
   padding: 0;
   margin-top: -15px;
 }
+.card-ceo{
+  background: white;
+  max-width: 250%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+
+}
 .iconka{
   width: 8%;
   height: 8%;
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-
+  margin-bottom: 15px;
 }
 
 .registration{
@@ -463,6 +473,7 @@ padding: 0;
   border: none;
   padding: 4% 10%;
   border-radius: 5px;
+  margin-left: 20px;
 }
 .free{
   background: white;
@@ -504,6 +515,7 @@ padding: 0;
   margin-top: 150px;
   justify-content: space-between;
   flex-direction: row;
+  margin-bottom: 15px;
 
 }
 .Litigade{
@@ -523,6 +535,10 @@ padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  font-family: 'Open Sans';
+  font-weight: 500;
+  font-size: 14px;
+
 
 }
 h6{
@@ -531,12 +547,33 @@ h6{
 footer ul {
   list-style-type: none;
   color: #ffffff;
+  margin: 10px;
 }
 a{
   text-decoration: none;
 }
 ul li a{
   color: #ffffff;
+}
+.button{
+  background-color: #fefbfb;
+  border-radius: 5px;
+}
+.button-white{
+  padding: 10px 55px;
+  text-align: start;
+  align-items: flex-start;
+  color:  #bcb7b7;
+  border: #E6E6E6;
+}
+.button-orange{
+  padding: 15px 15px;
+  text-align: start;
+  align-items: flex-start;
+  color: white;
+  background:#D0A144 ;
+  border: 1px solid #E6E6E6;
+  border-radius: 0px 5px 5px 0px;
 }
 .made{
   background:  #0072B5;
@@ -548,4 +585,14 @@ ul li a{
   font-size: 18px;
   font-weight: 600;
   top: 452px;
+}
+
+
+@media screen and{max-width: 840px} {;
+  .men {
+    width: 870px;
+    height: 430px;
+    margin: 0 auto;
+    margin-left: 350px;
+  }
 }
