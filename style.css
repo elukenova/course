@@ -206,6 +206,13 @@ nav ul li a {
   color: #ffffff;
   margin-bottom: 40px;
 }
+span{
+  color: #D0A144;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
 .container {
   /*задать ширину и выровнять по середине*/
   max-width: 1400px;
