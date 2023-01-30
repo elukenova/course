@@ -347,7 +347,7 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   margin-top: -30%;
 }
 
@@ -410,6 +410,10 @@ h4 {
   font-family: 'Open Sans';
 }
 
+.full-name-adress.right{
+  margin-right: 53%;
+  padding: 12px 5px;
+}
 .card-us{
   display: flex;
   flex-direction: column;
@@ -434,12 +438,30 @@ font-size: 25px;
 margin: 0;
 padding: 0;
 }
+
+.full-name-adress.full{
+  background-color: ffffff;
+  color:#a8a5a5;
+  padding: 70px 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: start;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 14px;
+  border: 1px solid #BDBDBD;
+  border-radius: 5px;
+  font-family: 'Open Sans';
+}
+
 .button-adress.orange{
   background: #D0A144;
   color: #ffffff;
   text-align: center;
   margin-top: 25px;
   border: none;
+  padding: 4% 10%;
   border-radius: 5px;
 }
 .free{
@@ -468,10 +490,11 @@ padding: 0;
 .free-button {
   background: #D0A144;
   color: #ffffff;
-  text-align: center;
+  display: block;
   padding: 0;
   height: 5vh;
   margin-top: 25px;
+  padding: 25px 35px;
   border: none;
   border-radius: 5px;
 }
@@ -485,7 +508,7 @@ padding: 0;
 }
 .Litigade{
   border-bottom: 1px solid #364067;
-  width: 80%;
+  width: 90%;
   text-align: center;
 }
 .imge{
@@ -514,4 +537,15 @@ a{
 }
 ul li a{
   color: #ffffff;
+}
+.made{
+  background:  #0072B5;
+  color: ffffff;
+  height: 10%;
+  text-align: center;
+}
+.made p{
+  font-size: 18px;
+  font-weight: 600;
+  top: 452px;
 }
